@@ -1,7 +1,7 @@
 import requests 
-
 from bs4 import BeautifulSoup
 target_url = "https://www.scrapingcourse.com/ecommerce/"
+
 
 urls_to_visit = [target_url]
 
@@ -54,5 +54,4 @@ crawler()
 
 
 url_list = []
-
 

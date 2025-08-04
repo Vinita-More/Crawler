@@ -1,3 +1,29 @@
-podcast_ids.json
+#XML files
 sitemaps_podcasts_podcast_100_1.xml
+
+#Python files
+diff.py
+password.py
+main.py
+lxml_crawler.py
+db.py
+crawler.py
+new.py
+downloadfile.py
+
+#CSV files
+apple_ids.csv
 podcast_ids.csv
+podcastid.csv
+
+#JSON files
+podcast_ids.json
+
+#.txt files
+missing_from_int_table.txt
+Comedy.txt
+*.txt
+
+# folder
+sitemaps/
+rough/ 

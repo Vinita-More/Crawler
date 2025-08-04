@@ -3,18 +3,6 @@ import re
 import csv
 import json
 
-# to store podcast_ids in json
-def save_to_json(podcast_ids, filename="podcast_ids.json"):
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(sorted(podcast_ids), f, indent=4)
-
-# to store podcast_ids in csv
-def save_to_csv(podcast_ids, filename="podcast_ids.csv"):
-    with open(filename, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerow(["Podcast ID"])  
-        for pid in podcast_ids:
-            writer.writerow([pid])
 
 # to get podcast_ids from the sitemap
 def get_podcast_ids_from_local_file(file_path):
@@ -38,6 +26,22 @@ def get_podcast_ids_from_local_file(file_path):
             
     return podcast_ids
 
+
+# to store podcast_ids in json
+def save_to_json(podcast_ids, filename="podcast_ids.json"):
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(sorted(podcast_ids), f, indent=4)
+
+
+# to store podcast_ids in csv
+def save_to_csv(podcast_ids, filename="podcastid.csv"):
+    with open(filename, mode="w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(["Podcast ID"])  
+        for pid in podcast_ids:
+            writer.writerow([pid])
+
+
 # definig file path of sitemap
 file_path = "sitemaps_podcasts_podcast_100_1.xml"
 
@@ -52,3 +56,5 @@ print("length", len(podcast_ids_set))
 
 # saving ids in json format
 save_to_json(podcast_ids_set)
+save_to_csv(podcast_ids_set)
+
