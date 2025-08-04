@@ -27,3 +27,5 @@ Comedy.txt
 # folder
 sitemaps/
 rough/ 
+
+__pycache__/
