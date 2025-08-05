@@ -42,7 +42,7 @@ headers = {
 
 # Iterate over categories
 for category in CATEGORIES:
-    url = f"https://api.podcastindex.org/api/1.0/search/byterm?q={category}&max=100"
+    url = f"https://api.podcastindex.org/api/1.0/search/byterm?q={category}"
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
@@ -61,7 +61,7 @@ with open("all_apple_ids.txt", "w", encoding="utf-8") as f:
     for id in sorted(all_ids):
         f.write(f"{id}\n")
 
-print(f"📦 Saved {len(all_ids)} unique Apple IDs to 'all_apple_ids.txt'")
+print(f"📦 Saved {len(all_ids)} Apple IDs to 'all_apple_ids.txt'")
 
 
 # Load existing Apple IDs from CSV
