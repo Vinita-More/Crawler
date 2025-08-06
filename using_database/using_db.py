@@ -1,7 +1,5 @@
 import sqlite3
 import csv
-import requests
-from bs4 import BeautifulSoup
 
 old_data = "../apple_ids.csv"
 

@@ -3,6 +3,7 @@ import hashlib
 import requests
 import sys
 import os
+import csv
 
 # Add parent directory to Python path
 sys.path.append(os.path.abspath('..'))
@@ -25,6 +26,8 @@ def generate_headers():
     }
     return headers
 
+itunes_ids = []
+
 # Example API call
 def get_recent_feeds():
     url = "https://api.podcastindex.org/api/1.0/recent/feeds"
@@ -36,7 +39,7 @@ def get_recent_feeds():
 
         # Extract all itunesIds
         feeds = data.get('feeds', [])
-        itunes_ids = []
+        
 
         for feed in feeds:
             itunes_id = feed.get('itunesId')
@@ -49,5 +52,34 @@ def get_recent_feeds():
     else:
         print(f"Request failed: {response.status_code}")
         print(response.text)
-
 get_recent_feeds()
+
+old_data = "../apple_ids.csv"
+
+# with open(old_data, "r", encoding="utf-8") as csvfile:
+#     reader = csv.reader(csvfile)
+#     existing_ids = {row[0].strip() for row in reader if row}
+
+with open(old_data, "r", encoding="utf-8") as csvfile:
+    reader = csv.reader(csvfile)
+    existing_ids = [row[0].strip() for row in reader if row]
+
+
+# Convert new itunes_ids to set of strings
+itunes_id_set = set(str(i).strip() for i in itunes_ids)
+
+# Get new IDs that are NOT in the CSV file
+new_ids = itunes_id_set - set(existing_ids)
+
+# Output the result
+print(f"Number of NEW IDs not in CSV: {len(new_ids)}")
+if new_ids:
+    print("These iTunes IDs are new (not in CSV):")
+    for i in new_ids:
+        print(i)
+else:
+    print("No new IDs found.")
+# new_ids = set(itunes_ids) - set(existing_ids)
+# print(f"number of new ids {len(new_ids)}" )
+# for i in new_ids:
+#     print(i)

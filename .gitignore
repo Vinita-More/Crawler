@@ -1,7 +1,7 @@
 #XML files
-sitemaps_podcasts_podcast_100_1.xml
 *.xml
 *.__pycache__
+
 #Python files
 diff.py
 password.py
@@ -9,22 +9,17 @@ main.py
 lxml_crawler.py
 db.py
 crawler.py
-new.py
+
 downloadfile.py
 bygenre.py
 
 #CSV files
 *.csv
-apple_ids.csv
-podcast_ids.csv
-podcastid.csv
 
 #JSON files
 podcast_ids.json
 
 #.txt files
-missing_from_int_table.txt
-Comedy.txt
 *.txt
 
 # folder

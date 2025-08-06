@@ -13,9 +13,9 @@ genre_ids = [
     1562, 1563, 1564, 1565, 1533, 1517, 1489, 1482, 1493, 1549, 1541, 
 ]
 
-country_codes = ["us", "de", "ca"] 
+country_codes = ["us", "de", "ca", "ph", "pt", "ro", "sk", "th", "ua", "ve", "vn", "az"] 
 
-CSV_FILENAME = "apple_ids.csv"
+CSV_FILENAME = "../apple_ids.csv"
 NEW_FILENAME = "new_ids.txt"
 
 # Load existing podcast IDs from CSV
@@ -212,9 +212,26 @@ if __name__ == "__main__":
 #     "us", "gb", "ca", "au", "in", "de", "fr", "jp", "kr", "br", "mx", "cn", "it", "es",
 #     "ru", "nl", "se", "no", "fi", "dk", "ie", "nz", "za", "sg", "hk", "tw", "be", "ch",
 #     "at", "pl", "tr", "sa", "ae", "ar", "cl", "co", "cz", "gr", "hu", "id", "il", "my",
-#     "ph", "pt", "ro", "sk", "th", "ua", "ve", "vn"
+#     "ph", "pt", "ro", "sk", "th", "ua", "ve", "vn", "az"
 # ]
 
+# country_codes = [
+#     ae, ag, ai, al, am, ao, ar, at, au, az,
+# bb, be, bf, bg, bh, bj, bm, bn, bo, br,
+# bs, bt, bw, by, bz, ca, cg, ch, cl, cn,
+# co, cr, cy, cz, de, dk, dm, do, dz, ec,
+# ee, eg, es, fi, fr, gb, gd, gh, gm, gr,
+# gt, gw, gy, hk, hn, hr, hu, id, ie, il,
+# in, is, it, jm, jo, jp, ke, kg, kh, kn,
+# kr, kw, ky, kz, la, lb, lc, lk, lr, lt,
+# lu, lv, md, mg, mk, ml, mn, mo, mr, ms,
+# mt, mu, mw, mx, my, ne, ng, ni, nl, no,
+# np, om, pa, pe, ph, pk, pl, pt, py, qa,
+# ro, ru, sa, sb, sc, se, sg, sk, si, sl,
+# sn, sr, st, sv, sz, td, tg, th, tj, tm,
+# tn, tr, tt, tw, tz, ua, ug, us, uy, uz,
+# vc, ve, vg, vn, ye, za, zw
+# ]
 # #Generating links
 # def generate_apple_podcast_links(genre_ids, country_codes):
 #     base_url = "https://podcasts.apple.com/{country}/genre/{genre_id}"
