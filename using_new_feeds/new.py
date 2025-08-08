@@ -7,9 +7,6 @@ import csv
 import sqlite3
 from typing import Set, Tuple
 
-
-
-
 def load_existing_csv_ids(csv_path: str) -> Set[str]:
     """Load existing Apple IDs from CSV file."""
     existing_ids = set()
@@ -162,6 +159,7 @@ def main():
     new_ids_db_only = all_ids - existing_ids_db
     new_ids_both = all_ids - (existing_ids_csv | existing_ids_db)  # Union operation
     
+
     # Step 6: Write results to files
     print("Writing results to files...")
     write_ids_to_file("new_ids_not_in_csv.txt", new_ids_csv_only)

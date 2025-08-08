@@ -1,0 +1,902 @@
+[
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Daily",
+    "id": "1200361736",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736",
+    "scraped_at": "2025-08-08T17:36:22.199660"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Morbid",
+    "id": "1379959217",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/morbid/id1379959217",
+    "scraped_at": "2025-08-08T17:36:27.278712"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Dateline NBC",
+    "id": "1464919521",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521",
+    "scraped_at": "2025-08-08T17:36:32.218620"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "48 Hours",
+    "id": "965818306",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/48-hours/id965818306",
+    "scraped_at": "2025-08-08T17:36:37.294674"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Up First from NPR",
+    "id": "1222114325",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/up-first-from-npr/id1222114325",
+    "scraped_at": "2025-08-08T17:36:41.178807"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Rest Is History",
+    "id": "1537788786",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-rest-is-history/id1537788786",
+    "scraped_at": "2025-08-08T17:36:46.368988"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Mel Robbins Podcast",
+    "id": "1646101002",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-mel-robbins-podcast/id1646101002",
+    "scraped_at": "2025-08-08T17:36:53.312481"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Sword and Scale",
+    "id": "790487079",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/sword-and-scale/id790487079",
+    "scraped_at": "2025-08-08T17:36:58.254872"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "SmartLess",
+    "id": "1521578868",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/smartless/id1521578868",
+    "scraped_at": "2025-08-08T17:37:02.646063"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The MeidasTouch Podcast",
+    "id": "1510240831",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-meidastouch-podcast/id1510240831",
+    "scraped_at": "2025-08-08T17:37:06.639703"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Binge Cases: Doctor's Orders",
+    "id": "1525807626",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-binge-cases%3A-doctor's-orders/id1525807626",
+    "scraped_at": "2025-08-08T17:37:13.009354"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Conan O’Brien Needs A Friend",
+    "id": "1438054347",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/conan-o%E2%80%99brien-needs-a-friend/id1438054347",
+    "scraped_at": "2025-08-08T17:37:20.313006"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Ezra Klein Show",
+    "id": "1548604447",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-ezra-klein-show/id1548604447",
+    "scraped_at": "2025-08-08T17:37:25.633759"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "MrBallen Podcast: Strange, Dark & Mysterious Stories",
+    "id": "1608813794",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/mrballen-podcast%3A-strange%2C-dark-%26-mysterious-stories/id1608813794",
+    "scraped_at": "2025-08-08T17:37:30.837317"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Armchair Expert with Dax Shepard",
+    "id": "1345682353",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/armchair-expert-with-dax-shepard/id1345682353",
+    "scraped_at": "2025-08-08T17:37:36.761419"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Pod Save America",
+    "id": "1192761536",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/pod-save-america/id1192761536",
+    "scraped_at": "2025-08-08T17:37:41.696143"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Fresh Air",
+    "id": "214089682",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/fresh-air/id214089682",
+    "scraped_at": "2025-08-08T17:37:45.839966"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Betrayal: Weekly",
+    "id": "1615637724",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/betrayal%3A-weekly/id1615637724",
+    "scraped_at": "2025-08-08T17:37:52.207687"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Bulwark Podcast",
+    "id": "1447684472",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-bulwark-podcast/id1447684472",
+    "scraped_at": "2025-08-08T17:37:57.450829"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Juicy Scoop with Heather McDonald",
+    "id": "1135332109",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/juicy-scoop-with-heather-mcdonald/id1135332109",
+    "scraped_at": "2025-08-08T17:38:03.257695"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Call Her Daddy",
+    "id": "1418960261",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/call-her-daddy/id1418960261",
+    "scraped_at": "2025-08-08T17:38:08.568552"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Serial",
+    "id": "917918570",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/serial/id917918570",
+    "scraped_at": "2025-08-08T17:38:15.416816"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Serialously with Annie Elise",
+    "id": "1519456164",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/serialously-with-annie-elise/id1519456164",
+    "scraped_at": "2025-08-08T17:38:21.342361"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Watch What Crappens",
+    "id": "498130432",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/watch-what-crappens/id498130432",
+    "scraped_at": "2025-08-08T17:38:27.378446"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Behind the Bastards",
+    "id": "1373812661",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/behind-the-bastards/id1373812661",
+    "scraped_at": "2025-08-08T17:38:33.012484"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Nothing much happens: bedtime stories to help you sleep",
+    "id": "1378040733",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/nothing-much-happens%3A-bedtime-stories-to-help-you-sleep/id1378040733",
+    "scraped_at": "2025-08-08T17:38:39.140550"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "This American Life",
+    "id": "201671138",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/this-american-life/id201671138",
+    "scraped_at": "2025-08-08T17:38:45.097475"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Diary Of A CEO with Steven Bartlett",
+    "id": "1291423644",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644",
+    "scraped_at": "2025-08-08T17:38:52.329760"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Viall Files",
+    "id": "1448210981",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-viall-files/id1448210981",
+    "scraped_at": "2025-08-08T17:38:58.170229"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Murder With My Husband",
+    "id": "1508098400",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/murder-with-my-husband/id1508098400",
+    "scraped_at": "2025-08-08T17:39:03.329374"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Last Podcast On The Left",
+    "id": "437299706",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/last-podcast-on-the-left/id437299706",
+    "scraped_at": "2025-08-08T17:39:09.575799"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "NPR News Now",
+    "id": "121493675",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/npr-news-now/id121493675",
+    "scraped_at": "2025-08-08T17:39:13.675936"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Park Predators",
+    "id": "1517651197",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/park-predators/id1517651197",
+    "scraped_at": "2025-08-08T17:39:18.997532"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Apple News+ Narrated",
+    "id": "1708072320",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/apple-news%2B-narrated/id1708072320",
+    "scraped_at": "2025-08-08T17:39:26.306698"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The NPR Politics Podcast",
+    "id": "1057255460",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-npr-politics-podcast/id1057255460",
+    "scraped_at": "2025-08-08T17:39:31.155483"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Hidden Brain",
+    "id": "1028908750",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/hidden-brain/id1028908750",
+    "scraped_at": "2025-08-08T17:39:36.270078"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "American Scandal",
+    "id": "1435516849",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/american-scandal/id1435516849",
+    "scraped_at": "2025-08-08T17:39:42.693554"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Las Culturistas with Matt Rogers and Bowen Yang",
+    "id": "1092361338",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/las-culturistas-with-matt-rogers-and-bowen-yang/id1092361338",
+    "scraped_at": "2025-08-08T17:39:48.001439"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Freakonomics Radio",
+    "id": "354668519",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/freakonomics-radio/id354668519",
+    "scraped_at": "2025-08-08T17:39:54.056291"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Casefile True Crime",
+    "id": "998568017",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/casefile-true-crime/id998568017",
+    "scraped_at": "2025-08-08T17:40:00.342653"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Moth",
+    "id": "275699983",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-moth/id275699983",
+    "scraped_at": "2025-08-08T17:40:05.529170"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "RedHanded",
+    "id": "1250599915",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/redhanded/id1250599915",
+    "scraped_at": "2025-08-08T17:40:12.059185"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Something Was Wrong",
+    "id": "1447286743",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/something-was-wrong/id1447286743",
+    "scraped_at": "2025-08-08T17:40:18.223703"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Global News Podcast",
+    "id": "135067274",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/global-news-podcast/id135067274",
+    "scraped_at": "2025-08-08T17:40:24.681098"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Pod Save the World",
+    "id": "1200016351",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/pod-save-the-world/id1200016351",
+    "scraped_at": "2025-08-08T17:40:30.218833"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "True Crime Garage",
+    "id": "1062418176",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/true-crime-garage/id1062418176",
+    "scraped_at": "2025-08-08T17:40:36.011537"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Deadline: White House",
+    "id": "1367201919",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/deadline%3A-white-house/id1367201919",
+    "scraped_at": "2025-08-08T17:40:43.054275"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Retrievals",
+    "id": "1691599042",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-retrievals/id1691599042",
+    "scraped_at": "2025-08-08T17:40:48.455243"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Last Word with Lawrence O’Donnell",
+    "id": "1316084734",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/the-last-word-with-lawrence-o%E2%80%99donnell/id1316084734",
+    "scraped_at": "2025-08-08T17:40:53.953376"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "MrBallen’s Medical Mysteries",
+    "id": "1709741912",
+    "section": "Top Subscriber Shows",
+    "url": "https://podcasts.apple.com/us/podcast/mrballen%E2%80%99s-medical-mysteries/id1709741912",
+    "scraped_at": "2025-08-08T17:41:00.006557"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Cold Blooded: Mystery in Alaska",
+    "id": "1826601671",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/cold-blooded%3A-mystery-in-alaska/id1826601671",
+    "scraped_at": "2025-08-08T17:41:11.983907"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Who Took Misty Copsey?",
+    "id": "1667930013",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/who-took-misty-copsey%3F/id1667930013",
+    "scraped_at": "2025-08-08T17:41:18.001390"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Binge Cases: Doctor's Orders",
+    "id": "1525807626",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-binge-cases%3A-doctor's-orders/id1525807626",
+    "scraped_at": "2025-08-08T17:41:24.408760"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Uncared For",
+    "id": "1652956408",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/uncared-for/id1652956408",
+    "scraped_at": "2025-08-08T17:41:31.017645"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Camp Shame",
+    "id": "1808700817",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/camp-shame/id1808700817",
+    "scraped_at": "2025-08-08T17:41:36.264597"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Serial",
+    "id": "917918570",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/serial/id917918570",
+    "scraped_at": "2025-08-08T17:41:42.341466"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Blink | Jake Haendel's Story",
+    "id": "1779813806",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/blink-%7C-jake-haendel's-story/id1779813806",
+    "scraped_at": "2025-08-08T17:41:49.488148"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Retrievals",
+    "id": "1691599042",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-retrievals/id1691599042",
+    "scraped_at": "2025-08-08T17:41:55.145249"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Telepathy Tapes",
+    "id": "1766382649",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-telepathy-tapes/id1766382649",
+    "scraped_at": "2025-08-08T17:42:00.564986"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Unicorn Girl",
+    "id": "1813180252",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/unicorn-girl/id1813180252",
+    "scraped_at": "2025-08-08T17:42:06.039235"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Bone Valley",
+    "id": "1643974551",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/bone-valley/id1643974551",
+    "scraped_at": "2025-08-08T17:42:12.450386"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Devil in the Desert",
+    "id": "1818132861",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/devil-in-the-desert/id1818132861",
+    "scraped_at": "2025-08-08T17:42:17.583531"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Floodlines",
+    "id": "1501433969",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/floodlines/id1501433969",
+    "scraped_at": "2025-08-08T17:42:23.302894"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Plot Thickens",
+    "id": "1504732282",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-plot-thickens/id1504732282",
+    "scraped_at": "2025-08-08T17:42:28.286243"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Dateline Originals",
+    "id": "1721921086",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/dateline-originals/id1721921086",
+    "scraped_at": "2025-08-08T17:42:33.460333"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "American Scandal",
+    "id": "1435516849",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/american-scandal/id1435516849",
+    "scraped_at": "2025-08-08T17:42:40.419675"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Flesh and Code",
+    "id": "1817383627",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/flesh-and-code/id1817383627",
+    "scraped_at": "2025-08-08T17:42:46.175505"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Turning - Seasons 1, 2 & 3",
+    "id": "1566966691",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-turning---seasons-1%2C-2-%26-3/id1566966691",
+    "scraped_at": "2025-08-08T17:42:53.950534"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "America's Crime Lab",
+    "id": "1458661510",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/america's-crime-lab/id1458661510",
+    "scraped_at": "2025-08-08T17:43:01.640829"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Liberty Lost",
+    "id": "1815337795",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/liberty-lost/id1815337795",
+    "scraped_at": "2025-08-08T17:43:08.399305"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "American History Tellers",
+    "id": "1313596069",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/american-history-tellers/id1313596069",
+    "scraped_at": "2025-08-08T17:43:15.437772"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Easy Money: The Charles Ponzi Story",
+    "id": "1805962115",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/easy-money%3A-the-charles-ponzi-story/id1805962115",
+    "scraped_at": "2025-08-08T17:43:21.721788"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Nobody Should Believe Me",
+    "id": "1615637188",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/nobody-should-believe-me/id1615637188",
+    "scraped_at": "2025-08-08T17:43:28.637693"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Debt Heads",
+    "id": "1696707201",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/debt-heads/id1696707201",
+    "scraped_at": "2025-08-08T17:43:32.768326"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "What Happened to Holly Bobo?",
+    "id": "1808997893",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/what-happened-to-holly-bobo%3F/id1808997893",
+    "scraped_at": "2025-08-08T17:43:39.654224"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Deep Cover",
+    "id": "1520478402",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/deep-cover/id1520478402",
+    "scraped_at": "2025-08-08T17:43:46.371415"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Against The Odds",
+    "id": "1553335461",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/against-the-odds/id1553335461",
+    "scraped_at": "2025-08-08T17:43:52.215581"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "In The Dark",
+    "id": "1148175292",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/in-the-dark/id1148175292",
+    "scraped_at": "2025-08-08T17:43:58.022478"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Bear Brook",
+    "id": "1423306695",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/bear-brook/id1423306695",
+    "scraped_at": "2025-08-08T17:44:03.504063"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Business Wars",
+    "id": "1335814741",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/business-wars/id1335814741",
+    "scraped_at": "2025-08-08T17:44:09.182780"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The History of Rome",
+    "id": "261654474",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-history-of-rome/id261654474",
+    "scraped_at": "2025-08-08T17:44:14.079202"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Girlfriends: Jailhouse Lawyer - Season 3",
+    "id": "1695875823",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-girlfriends%3A-jailhouse-lawyer---season-3/id1695875823",
+    "scraped_at": "2025-08-08T17:44:20.359434"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "A MURDER IN MONTECITO",
+    "id": "1823777846",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/a-murder-in-montecito/id1823777846",
+    "scraped_at": "2025-08-08T17:44:25.786174"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Betrayal: Seasons 1, 2, 3 & 4",
+    "id": "1759355203",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/betrayal%3A-seasons-1%2C-2%2C-3-%26-4/id1759355203",
+    "scraped_at": "2025-08-08T17:44:31.935407"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Murder in the Moonlight",
+    "id": "1794421874",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/murder-in-the-moonlight/id1794421874",
+    "scraped_at": "2025-08-08T17:44:38.099463"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Long Shadow",
+    "id": "1577471264",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/long-shadow/id1577471264",
+    "scraped_at": "2025-08-08T17:44:43.048139"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Cold",
+    "id": "1441595858",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/cold/id1441595858",
+    "scraped_at": "2025-08-08T17:44:48.728234"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Mystic and The Mayor",
+    "id": "1827456374",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-mystic-and-the-mayor/id1827456374",
+    "scraped_at": "2025-08-08T17:44:53.680922"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "CounterClock",
+    "id": "1489482036",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/counterclock/id1489482036",
+    "scraped_at": "2025-08-08T17:44:59.829924"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Gumshoes & Dragons",
+    "id": "1829726898",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/gumshoes-%26-dragons/id1829726898",
+    "scraped_at": "2025-08-08T17:45:05.470299"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Scratch & Win",
+    "id": "1705087719",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/scratch-%26-win/id1705087719",
+    "scraped_at": "2025-08-08T17:45:11.611943"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "StanLand",
+    "id": "1809268511",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/stanland/id1809268511",
+    "scraped_at": "2025-08-08T17:45:16.683000"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Sold a Story",
+    "id": "1649580473",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/sold-a-story/id1649580473",
+    "scraped_at": "2025-08-08T17:45:21.953978"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Deadly Mirage",
+    "id": "1781332339",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/deadly-mirage/id1781332339",
+    "scraped_at": "2025-08-08T17:45:27.321699"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Maxwells",
+    "id": "1633676250",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-maxwells/id1633676250",
+    "scraped_at": "2025-08-08T17:45:33.067993"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "The Binge Crimes: The Doodler",
+    "id": "1578324041",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/the-binge-crimes%3A-the-doodler/id1578324041",
+    "scraped_at": "2025-08-08T17:45:39.929200"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Pipeline",
+    "id": "1813374370",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/pipeline/id1813374370",
+    "scraped_at": "2025-08-08T17:45:45.366819"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Up and Vanished",
+    "id": "1140596919",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/up-and-vanished/id1140596919",
+    "scraped_at": "2025-08-08T17:45:50.388282"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Titanic: Ship of Dreams",
+    "id": "1797033780",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/titanic%3A-ship-of-dreams/id1797033780",
+    "scraped_at": "2025-08-08T17:45:57.120530"
+  },
+  {
+    "rating": null,
+    "recent_episode_date": "PT0S",
+    "title": "Sea of Lies",
+    "id": "1818646689",
+    "section": "Top Series",
+    "url": "https://podcasts.apple.com/us/podcast/sea-of-lies/id1818646689",
+    "scraped_at": "2025-08-08T17:46:02.596482"
+  }
+]
