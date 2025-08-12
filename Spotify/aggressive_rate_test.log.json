@@ -1,0 +1,3 @@
+{"timestamp": "2025-08-12T18:28:47.038742", "test_requests": 49994, "successful": 49690, "rate_limited": 0, "failed": 304, "test_duration": 746.483802318573, "effective_rpm": 4018.3591267260463, "hit_rate_limit": false, "success_rate": 99.39192703124375}
+{"timestamp": "2025-08-12T18:40:56.043339", "test_requests": 49997, "successful": 49900, "rate_limited": 0, "failed": 97, "test_duration": 718.9291753768921, "effective_rpm": 4172.622426162316, "hit_rate_limit": false, "success_rate": 99.80598835930155}
+{"timestamp": "2025-08-12T18:53:35.669365", "test_requests": 49999, "successful": 49997, "rate_limited": 0, "failed": 2, "test_duration": 749.5638060569763, "effective_rpm": 4002.2476749257107, "hit_rate_limit": false, "success_rate": 99.9959999199984}

@@ -1,6 +1,6 @@
 import requests
 
-url = "https://podcastcharts.byspotify.com/api/charts/trending?region=us"
+url = "https://podcastcharts.byspotify.com/api/charts/top?region=zw" 
 
 
 resp = requests.get(url)

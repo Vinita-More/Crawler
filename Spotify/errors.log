@@ -1,0 +1,2 @@
+    2025-08-12 16:18:53,501 - ERROR - Request #4847 encountered error: HTTPSConnectionPool(host='podcastcharts.byspotify.com', port=443): Read timed out. (read timeout=10)
+2025-08-12 16:18:54,306 - ERROR - Request #5128 encountered error: HTTPSConnectionPool(host='podcastcharts.byspotify.com', port=443): Read timed out.
