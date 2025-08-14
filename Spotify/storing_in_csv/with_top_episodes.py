@@ -1,3 +1,4 @@
+# comparison without top episodes 
 from collections import defaultdict
 import requests
 import csv
@@ -42,7 +43,7 @@ def fetch_charts(country, category):
         return []
 
 
-def save_to_csv(rows, filename="spotify_podcast_charts_with_top_episodes.csv"):
+def save_to_csv(rows, filename="14_08_with_top_episodes.csv"):
     """Save results to CSV."""
     with open(filename, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -157,7 +158,7 @@ def main():
 
     save_to_csv(all_rows)
 
-    print(f"\n[DONE] Saved {len(all_rows)} rows to spotify_podcast_charts_with_top_episodes.csv")
+    print(f"\n[DONE] Saved {len(all_rows)} rows to 14_08_with_top_episodes.csv")
     print(f"[SUMMARY] Total entries: {len(all_rows)}")
     print(f"[SUMMARY] Unique shows: {len(unique_show_ids)}")
 

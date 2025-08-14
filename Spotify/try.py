@@ -1,85 +1,126 @@
-# import requests
-# import password
-# import json
-
-# # Replace with your own Spotify API credentials
-# CLIENT_ID = password.CLIENT_ID
-# CLIENT_SECRET = password.CLIENT_SECRET
-
-# # The podcast ID you want to look up (from open.spotify.com/show/...)
-# SHOW_ID = "34ETtoDYjZtR6ORTJVFvi8"  # example
-
-# # Step 1 — Get an access token
-# auth_response = requests.post(
-#     "https://accounts.spotify.com/api/token",
-#     data={"grant_type": "client_credentials"},
-#     auth=(CLIENT_ID, CLIENT_SECRET)
-# )
-# auth_response.raise_for_status()
-# access_token = auth_response.json()["access_token"]
-
-# # Step 2 — Call the Spotify API for the show
-# headers = {"Authorization": f"Bearer {access_token}"}
-# url = f"https://api.spotify.com/v1/shows/{SHOW_ID}"
-
-# response = requests.get(url, headers=headers)
-# response.raise_for_status()
-# data = response.json()
-
-# pretty_json = json.dumps(data, indent=4)
-
-# # Add a decorative star before printing
-# print("*" * 30)  # Prints 30 asterisks
-# print(pretty_json)
-# print("*" * 30)
-
-# # Step 3 — Print basic details
-# print("Podcast Name:", data["name"])
-# print("Publisher:", data["publisher"])
-# print("Description:", data["description"])
-# print("Image URL:", data["images"][0]["url"] if data["images"] else "No image")
-# print("Total Episodes:", data["total_episodes"])
-
+from urllib.parse import unquote
 import requests
-import time
-import logging
+import json
 
-# Setup logging to file
-logging.basicConfig(filename="error.txt", level=logging.ERROR, 
-                    format="%(asctime)s - %(message)s")
+# Your continuation token from the URL
+ctoken_encoded = "4qmFsgKHAxIMRkVtdXNpY19ob21lGvYCQ0FaNnpBRkhTVU40TmpacVRtbFpPRVJYYjFWQ1EyOUpRa05wVWpWa1JqbDNXVmRrYkZnelRuVlpXRUo2WVVjNU1GZ3lNVEZqTW14cVdETkNhRm95Vm1aamJWWnVZVmM1ZFZsWGQxTkllbEkxVkc1U01XUnVhSEJWTUdSU1YwVldVV0V6YURSU1JWcHFXV3hTUzFwWFNqTlJibXh3WVVkellVOVZNVEZqTW14cVVrZHNlbGt5T1RKYVdFbzFWVWRHYmxwV1RteGpibHB3V1RKVmRGSXlWakJUUnpsMFdsWkNhRm95VlVGQlVVSnNZbWRCUWxOVk5FRkJWV3hQUVVGRlFrRjNRVUpFVUhGamVEY3dTa0ZuWjBpQ0EwSktCQWdNRUFOS0JBZ05FQUZLQkFnSUVBRktCQWdPRUFGS0JBZ0hFQUZLQkFnSkVBRktCQWdERUFGS0JBZ0VFQUZLQkFnS0VBRktCQWdHRUFGS0JBZ0ZFQUUlM0Q%253D&continuation=4qmFsgKHAxIMRkVtdXNpY19ob21lGvYCQ0FaNnpBRkhTVU40TmpacVRtbFpPRVJYYjFWQ1EyOUpRa05wVWpWa1JqbDNXVmRrYkZnelRuVlpXRUo2WVVjNU1GZ3lNVEZqTW14cVdETkNhRm95Vm1aamJWWnVZVmM1ZFZsWGQxTkllbEkxVkc1U01XUnVhSEJWTUdSU1YwVldVV0V6YURSU1JWcHFXV3hTUzFwWFNqTlJibXh3WVVkellVOVZNVEZqTW14cVVrZHNlbGt5T1RKYVdFbzFWVWRHYmxwV1RteGpibHB3V1RKVmRGSXlWakJUUnpsMFdsWkNhRm95VlVGQlVVSnNZbWRCUWxOVk5FRkJWV3hQUVVGRlFrRjNRVUpFVUhGamVEY3dTa0ZuWjBpQ0EwSktCQWdNRUFOS0JBZ05FQUZLQkFnSUVBRktCQWdPRUFGS0JBZ0hFQUZLQkFnSkVBRktCQWdERUFGS0JBZ0VFQUZLQkFnS0VBRktCQWdHRUFGS0JBZ0ZFQUUlM0Q%253D&type=next&itct=CAIQybcCIhMI-JCIqc2JjwMVpovYBR3uRwbX&prettyPrint=false"
+ctoken = unquote(ctoken_encoded)
+# YouTube Music internal API key (valid for WEB_REMIX client)
+API_KEY = "AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30"
 
-URL = "https://podcastcharts.byspotify.com/api/charts/top?region=gb"
-timeout_seconds = 10
+# Request headers (YouTube expects these)
+headers = {
+    "Content-Type": "application/json",
+    "User-Agent": "Mozilla/5.0",
+    "Origin": "https://music.youtube.com",
+    "Referer": "https://music.youtube.com/"
+}
 
-def make_request(req_num):
-    try:
-        r = requests.get(URL, timeout=timeout_seconds)
-        if r.status_code != 200:
-            logging.error(f"Request #{req_num} failed with status code: {r.status_code}")
-        return r.status_code
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Request #{req_num} encountered error: {e}")
-        return None
+# Request payload
+payload = {
+    "context": {
+        "client": {
+            "clientName": "WEB_REMIX",
+            "clientVersion": "1.20230808.01.00"  # Can be updated if needed
+        }
+    },
+    "continuation": ctoken
+}
 
-def find_rate_limit():
-    req_count = 0
-    start_time = time.time()
+# Send POST request
+url = f"https://music.youtube.com/youtubei/v1/browse?key={API_KEY}"
+response = requests.post(url, headers=headers, json=payload)
+
+# Parse JSON
+if response.status_code == 200:
+    data = response.json()
+    print(json.dumps(data, indent=2))
+else:
+    print(f"Request failed: {response.status_code}")
+    print(response.text)
+
+# # import requests
+# # import password
+# # import json
+
+# # # Replace with your own Spotify API credentials
+# # CLIENT_ID = password.CLIENT_ID
+# # CLIENT_SECRET = password.CLIENT_SECRET
+
+# # # The podcast ID you want to look up (from open.spotify.com/show/...)
+# # SHOW_ID = "34ETtoDYjZtR6ORTJVFvi8"  # example
+
+# # # Step 1 — Get an access token
+# # auth_response = requests.post(
+# #     "https://accounts.spotify.com/api/token",
+# #     data={"grant_type": "client_credentials"},
+# #     auth=(CLIENT_ID, CLIENT_SECRET)
+# # )
+# # auth_response.raise_for_status()
+# # access_token = auth_response.json()["access_token"]
+
+# # # Step 2 — Call the Spotify API for the show
+# # headers = {"Authorization": f"Bearer {access_token}"}
+# # url = f"https://api.spotify.com/v1/shows/{SHOW_ID}"
+
+# # response = requests.get(url, headers=headers)
+# # response.raise_for_status()
+# # data = response.json()
+
+# # pretty_json = json.dumps(data, indent=4)
+
+# # # Add a decorative star before printing
+# # print("*" * 30)  # Prints 30 asterisks
+# # print(pretty_json)
+# # print("*" * 30)
+
+# # # Step 3 — Print basic details
+# # print("Podcast Name:", data["name"])
+# # print("Publisher:", data["publisher"])
+# # print("Description:", data["description"])
+# # print("Image URL:", data["images"][0]["url"] if data["images"] else "No image")
+# # print("Total Episodes:", data["total_episodes"])
+
+# import requests
+# import time
+# import logging
+
+# # Setup logging to file
+# logging.basicConfig(filename="error.txt", level=logging.ERROR, 
+#                     format="%(asctime)s - %(message)s")
+
+# URL = "https://podcastcharts.byspotify.com/api/charts/top?region=gb"
+# timeout_seconds = 10
+
+# def make_request(req_num):
+#     try:
+#         r = requests.get(URL, timeout=timeout_seconds)
+#         if r.status_code != 200:
+#             logging.error(f"Request #{req_num} failed with status code: {r.status_code}")
+#         return r.status_code
+#     except requests.exceptions.RequestException as e:
+#         logging.error(f"Request #{req_num} encountered error: {e}")
+#         return None
+
+# def find_rate_limit():
+#     req_count = 0
+#     start_time = time.time()
     
-    while True:
-        req_count += 1
-        status = make_request(req_count)
-        elapsed = time.time() - start_time
-        print(f"[REQ #{req_count}] Status: {status} | Time elapsed: {elapsed:.2f}s")
+#     while True:
+#         req_count += 1
+#         status = make_request(req_count)
+#         elapsed = time.time() - start_time
+#         print(f"[REQ #{req_count}] Status: {status} | Time elapsed: {elapsed:.2f}s")
 
-        if status == 429:
-            print(f"\n🚫 Rate limit hit at request #{req_count} after {elapsed:.2f} seconds.")
-            break
+#         if status == 429:
+#             print(f"\n🚫 Rate limit hit at request #{req_count} after {elapsed:.2f} seconds.")
+#             break
 
-        # small delay so we don't burn the limit too fast
+#         # small delay so we don't burn the limit too fast
         
 
-    print(f"\nTotal successful requests before rate limit: {req_count - 1}")
-    print("All errors are logged in error_log.txt")
+#     print(f"\nTotal successful requests before rate limit: {req_count - 1}")
+#     print("All errors are logged in error_log.txt")
 
-if __name__ == "__main__":
-    find_rate_limit()
+# if __name__ == "__main__":
+#     find_rate_limit()
