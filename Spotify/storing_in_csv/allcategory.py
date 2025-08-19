@@ -7,7 +7,7 @@ import time
 # Has three categories only - top podcasts, trending podcasts, top episodes
 Three = [
     "ar", "at", "ca", "cl", "co", "dk", "fi", "fr", "in", 
-    "id", "ie", "it", "jp","nz","no","ph","es", "nl"
+    "id", "ie", "it", "jp","nz","no","ph","es", "nl", "pl"
     ]
 
 # Has all categories - 17
@@ -19,13 +19,13 @@ Seventeen = [
 One =[ 
     "al", "ad", "ae", "az", "ba", "be", "bg", "bh",
     "bo", "br", "bw", "ch", "cr", "cy", "cz", "do", 
-    "dz", "ec", "ee", "eg", "es", "fi", "fr", "gb", 
+    "dz", "ec", "ee", "eg", "es",
     "ge", "gh", "gr", "gt",  "hk", "hn", "hr", "hu", 
     "id", "ie", "il", "in", "is", "jm", "jo", "jp", 
     "ke", "kh", "kr", "kw", "lb", "lt", "lu", "lv", 
     "ma", "mk", "mt", "mu" # 54, 
     "mw", "mx", "my", "mz", "na", "ng", "ni",  "np",  
-    "om", "pa", "pe", "ph", "pl", "pt", "py","qa", 
+    "om", "pa", "pe", "ph",  "pt", "py","qa", 
     "ro", "rs", "rw" # 62, 
     "sa", "se", "sg", "si", "sk", "sn", "sv", "th", 
     "tn", "tr", "tt", "tw", "tz", "ua", "uy", "uz", 

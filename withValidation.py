@@ -1,4 +1,5 @@
 # Inserting values with validation into varchar to avoid taking string entry
+
 import pandas as pd
 import mysql.connector
 import password

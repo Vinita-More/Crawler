@@ -44,7 +44,6 @@ if response.status_code == 200:
             if apple_id not in unique_podcasts:
                 unique_podcasts[apple_id] = {"itunesId": apple_id}
 
-    # Save to file
        # Save to file
     with open("unique_podcasts.txt", "w", encoding="utf-8") as f:
         for podcast in unique_podcasts.values():
