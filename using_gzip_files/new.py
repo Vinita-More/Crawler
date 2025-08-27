@@ -1,4 +1,3 @@
-
 import io
 from bs4 import BeautifulSoup
 import re
@@ -32,6 +31,7 @@ def load_existing_ids(csv_path):
         print(f"📂 Loaded {len(existing)} IDs from {csv_path}")
     except FileNotFoundError:
         print(f"⚠️ File not found: {csv_path}, treating as empty")
+        
     return existing
 
 # Apple country codes
